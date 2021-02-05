@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBEEB48A25CCC3A700A1B2E5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB48925CCC3A700A1B2E5 /* Tests_iOS.swift */; };
+		DBEEB49525CCC3A800A1B2E5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB49425CCC3A800A1B2E5 /* Tests_macOS.swift */; };
+		DBEEB49725CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */; };
+		DBEEB49825CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */; };
+		DBEEB49925CCC3A800A1B2E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */; };
+		DBEEB49A25CCC3A800A1B2E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */; };
+		DBEEB49B25CCC3A800A1B2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */; };
+		DBEEB49C25CCC3A800A1B2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBEEB48625CCC3A700A1B2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBEEB46925CCC3A700A1B2E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBEEB47425CCC3A700A1B2E5;
+			remoteInfo = "SkillFactory App (iOS)";
+		};
+		DBEEB49125CCC3A800A1B2E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBEEB46925CCC3A700A1B2E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBEEB47C25CCC3A700A1B2E5;
+			remoteInfo = "SkillFactory App (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillFactory_AppApp.swift; sourceTree = "<group>"; };
+		DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBEEB47525CCC3A700A1B2E5 /* SkillFactory App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkillFactory App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEEB47825CCC3A700A1B2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEEB47D25CCC3A700A1B2E5 /* SkillFactory App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkillFactory App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEEB47F25CCC3A700A1B2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEEB48025CCC3A700A1B2E5 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		DBEEB48525CCC3A700A1B2E5 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEEB48925CCC3A700A1B2E5 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		DBEEB48B25CCC3A700A1B2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBEEB49025CCC3A800A1B2E5 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBEEB49425CCC3A800A1B2E5 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		DBEEB49625CCC3A800A1B2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBEEB47225CCC3A700A1B2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB47A25CCC3A700A1B2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB48225CCC3A700A1B2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB48D25CCC3A800A1B2E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBEEB46825CCC3A700A1B2E5 = {
+			isa = PBXGroup;
+			children = (
+				DBEEB46D25CCC3A700A1B2E5 /* Shared */,
+				DBEEB47725CCC3A700A1B2E5 /* iOS */,
+				DBEEB47E25CCC3A700A1B2E5 /* macOS */,
+				DBEEB48825CCC3A700A1B2E5 /* Tests iOS */,
+				DBEEB49325CCC3A800A1B2E5 /* Tests macOS */,
+				DBEEB47625CCC3A700A1B2E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBEEB46D25CCC3A700A1B2E5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */,
+				DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */,
+				DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DBEEB47625CCC3A700A1B2E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEB47525CCC3A700A1B2E5 /* SkillFactory App.app */,
+				DBEEB47D25CCC3A700A1B2E5 /* SkillFactory App.app */,
+				DBEEB48525CCC3A700A1B2E5 /* Tests iOS.xctest */,
+				DBEEB49025CCC3A800A1B2E5 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBEEB47725CCC3A700A1B2E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEB47825CCC3A700A1B2E5 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		DBEEB47E25CCC3A700A1B2E5 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEB47F25CCC3A700A1B2E5 /* Info.plist */,
+				DBEEB48025CCC3A700A1B2E5 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		DBEEB48825CCC3A700A1B2E5 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEB48925CCC3A700A1B2E5 /* Tests_iOS.swift */,
+				DBEEB48B25CCC3A700A1B2E5 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		DBEEB49325CCC3A800A1B2E5 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEB49425CCC3A800A1B2E5 /* Tests_macOS.swift */,
+				DBEEB49625CCC3A800A1B2E5 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBEEB47425CCC3A700A1B2E5 /* SkillFactory App (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEEB49F25CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "SkillFactory App (iOS)" */;
+			buildPhases = (
+				DBEEB47125CCC3A700A1B2E5 /* Sources */,
+				DBEEB47225CCC3A700A1B2E5 /* Frameworks */,
+				DBEEB47325CCC3A700A1B2E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkillFactory App (iOS)";
+			productName = "SkillFactory App (iOS)";
+			productReference = DBEEB47525CCC3A700A1B2E5 /* SkillFactory App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBEEB47C25CCC3A700A1B2E5 /* SkillFactory App (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEEB4A225CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "SkillFactory App (macOS)" */;
+			buildPhases = (
+				DBEEB47925CCC3A700A1B2E5 /* Sources */,
+				DBEEB47A25CCC3A700A1B2E5 /* Frameworks */,
+				DBEEB47B25CCC3A700A1B2E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SkillFactory App (macOS)";
+			productName = "SkillFactory App (macOS)";
+			productReference = DBEEB47D25CCC3A700A1B2E5 /* SkillFactory App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBEEB48425CCC3A700A1B2E5 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEEB4A525CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				DBEEB48125CCC3A700A1B2E5 /* Sources */,
+				DBEEB48225CCC3A700A1B2E5 /* Frameworks */,
+				DBEEB48325CCC3A700A1B2E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBEEB48725CCC3A700A1B2E5 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = DBEEB48525CCC3A700A1B2E5 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DBEEB48F25CCC3A800A1B2E5 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBEEB4A825CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				DBEEB48C25CCC3A800A1B2E5 /* Sources */,
+				DBEEB48D25CCC3A800A1B2E5 /* Frameworks */,
+				DBEEB48E25CCC3A800A1B2E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBEEB49225CCC3A800A1B2E5 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = DBEEB49025CCC3A800A1B2E5 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBEEB46925CCC3A700A1B2E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					DBEEB47425CCC3A700A1B2E5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					DBEEB47C25CCC3A700A1B2E5 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					DBEEB48425CCC3A700A1B2E5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = DBEEB47425CCC3A700A1B2E5;
+					};
+					DBEEB48F25CCC3A800A1B2E5 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = DBEEB47C25CCC3A700A1B2E5;
+					};
+				};
+			};
+			buildConfigurationList = DBEEB46C25CCC3A700A1B2E5 /* Build configuration list for PBXProject "SkillFactory App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBEEB46825CCC3A700A1B2E5;
+			productRefGroup = DBEEB47625CCC3A700A1B2E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBEEB47425CCC3A700A1B2E5 /* SkillFactory App (iOS) */,
+				DBEEB47C25CCC3A700A1B2E5 /* SkillFactory App (macOS) */,
+				DBEEB48425CCC3A700A1B2E5 /* Tests iOS */,
+				DBEEB48F25CCC3A800A1B2E5 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBEEB47325CCC3A700A1B2E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEEB49B25CCC3A800A1B2E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB47B25CCC3A700A1B2E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEEB49C25CCC3A800A1B2E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB48325CCC3A700A1B2E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB48E25CCC3A800A1B2E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBEEB47125CCC3A700A1B2E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEEB49925CCC3A800A1B2E5 /* ContentView.swift in Sources */,
+				DBEEB49725CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB47925CCC3A700A1B2E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEEB49A25CCC3A800A1B2E5 /* ContentView.swift in Sources */,
+				DBEEB49825CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB48125CCC3A700A1B2E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEEB48A25CCC3A700A1B2E5 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBEEB48C25CCC3A800A1B2E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBEEB49525CCC3A800A1B2E5 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBEEB48725CCC3A700A1B2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBEEB47425CCC3A700A1B2E5 /* SkillFactory App (iOS) */;
+			targetProxy = DBEEB48625CCC3A700A1B2E5 /* PBXContainerItemProxy */;
+		};
+		DBEEB49225CCC3A800A1B2E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBEEB47C25CCC3A700A1B2E5 /* SkillFactory App (macOS) */;
+			targetProxy = DBEEB49125CCC3A800A1B2E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DBEEB49D25CCC3A800A1B2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBEEB49E25CCC3A800A1B2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DBEEB4A025CCC3A800A1B2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_NAME = "SkillFactory App";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBEEB4A125CCC3A800A1B2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_NAME = "SkillFactory App";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEEB4A325CCC3A800A1B2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_NAME = "SkillFactory App";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DBEEB4A425CCC3A800A1B2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_NAME = "SkillFactory App";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBEEB4A625CCC3A800A1B2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkillFactory App (iOS)";
+			};
+			name = Debug;
+		};
+		DBEEB4A725CCC3A800A1B2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SkillFactory App (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBEEB4A925CCC3A800A1B2E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SkillFactory App (macOS)";
+			};
+			name = Debug;
+		};
+		DBEEB4AA25CCC3A800A1B2E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q4NG482RNM;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SkillFactory App (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBEEB46C25CCC3A700A1B2E5 /* Build configuration list for PBXProject "SkillFactory App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEEB49D25CCC3A800A1B2E5 /* Debug */,
+				DBEEB49E25CCC3A800A1B2E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEEB49F25CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "SkillFactory App (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEEB4A025CCC3A800A1B2E5 /* Debug */,
+				DBEEB4A125CCC3A800A1B2E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEEB4A225CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "SkillFactory App (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEEB4A325CCC3A800A1B2E5 /* Debug */,
+				DBEEB4A425CCC3A800A1B2E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEEB4A525CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEEB4A625CCC3A800A1B2E5 /* Debug */,
+				DBEEB4A725CCC3A800A1B2E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBEEB4A825CCC3A800A1B2E5 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBEEB4A925CCC3A800A1B2E5 /* Debug */,
+				DBEEB4AA25CCC3A800A1B2E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBEEB46925CCC3A700A1B2E5 /* Project object */;
+}
