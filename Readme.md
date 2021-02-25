@@ -15,3 +15,8 @@
 2) Запустите `SkillFactory App.xcodeproj`
 3) Выберите симулятор на котором хотели бы запустить проект
 4) Нажмите `Play` или `cmd + R`
+
+# Превью
+
+[Home Screen](https://raw.githubusercontent.com/SpectralDragon/SkillFactory-Reminder-App/main/screens/1.png)
+[Edit Reminder](https://raw.githubusercontent.com/SpectralDragon/SkillFactory-Reminder-App/main/screens/2.png)
