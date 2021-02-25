@@ -18,5 +18,5 @@
 
 # Превью
 
-[Home Screen](https://raw.githubusercontent.com/SpectralDragon/SkillFactory-Reminder-App/main/screens/1.png)
-[Edit Reminder](https://raw.githubusercontent.com/SpectralDragon/SkillFactory-Reminder-App/main/screens/2.png)
+![Home Screen](https://raw.githubusercontent.com/SpectralDragon/SkillFactory-Reminder-App/main/screens/1.png)
+![Edit Reminder](https://raw.githubusercontent.com/SpectralDragon/SkillFactory-Reminder-App/main/screens/2.png)
