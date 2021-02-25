@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB00ACE825E7F99800ADAD99 /* AddOrEditReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00ACE725E7F99800ADAD99 /* AddOrEditReminderView.swift */; };
+		DB00ACF225E7F9BE00ADAD99 /* CircleButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00ACF125E7F9BE00ADAD99 /* CircleButtonStyle.swift */; };
+		DB00ACF925E7FA3200ADAD99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00ACF825E7FA3200ADAD99 /* HomeView.swift */; };
+		DB00AD0325E7FA8400ADAD99 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB00AD0225E7FA8400ADAD99 /* HomeViewModel.swift */; };
 		DBEEB48A25CCC3A700A1B2E5 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB48925CCC3A700A1B2E5 /* Tests_iOS.swift */; };
 		DBEEB49525CCC3A800A1B2E5 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB49425CCC3A800A1B2E5 /* Tests_macOS.swift */; };
 		DBEEB49725CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */; };
 		DBEEB49825CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */; };
-		DBEEB49925CCC3A800A1B2E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */; };
-		DBEEB49A25CCC3A800A1B2E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */; };
+		DBEEB49925CCC3A800A1B2E5 /* ReminderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEEB46F25CCC3A700A1B2E5 /* ReminderRow.swift */; };
 		DBEEB49B25CCC3A800A1B2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */; };
 		DBEEB49C25CCC3A800A1B2E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -35,8 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB00ACE725E7F99800ADAD99 /* AddOrEditReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrEditReminderView.swift; sourceTree = "<group>"; };
+		DB00ACF125E7F9BE00ADAD99 /* CircleButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonStyle.swift; sourceTree = "<group>"; };
+		DB00ACF825E7FA3200ADAD99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DB00AD0225E7FA8400ADAD99 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillFactory_AppApp.swift; sourceTree = "<group>"; };
-		DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBEEB46F25CCC3A700A1B2E5 /* ReminderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderRow.swift; sourceTree = "<group>"; };
 		DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBEEB47525CCC3A700A1B2E5 /* SkillFactory App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SkillFactory App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBEEB47825CCC3A700A1B2E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -83,6 +90,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB00ACE525E7F97100ADAD99 /* UserStory */ = {
+			isa = PBXGroup;
+			children = (
+				DB00ACF725E7F9DB00ADAD99 /* Home */,
+				DB00ACE625E7F99100ADAD99 /* AddOrEditReminderView */,
+			);
+			path = UserStory;
+			sourceTree = "<group>";
+		};
+		DB00ACE625E7F99100ADAD99 /* AddOrEditReminderView */ = {
+			isa = PBXGroup;
+			children = (
+				DB00ACE725E7F99800ADAD99 /* AddOrEditReminderView.swift */,
+			);
+			path = AddOrEditReminderView;
+			sourceTree = "<group>";
+		};
+		DB00ACF725E7F9DB00ADAD99 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DBEEB46F25CCC3A700A1B2E5 /* ReminderRow.swift */,
+				DB00ACF825E7FA3200ADAD99 /* HomeView.swift */,
+				DB00AD0225E7FA8400ADAD99 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		DBEEB46825CCC3A700A1B2E5 = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +132,10 @@
 		DBEEB46D25CCC3A700A1B2E5 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				DB00ACE525E7F97100ADAD99 /* UserStory */,
 				DBEEB46E25CCC3A700A1B2E5 /* SkillFactory_AppApp.swift */,
-				DBEEB46F25CCC3A700A1B2E5 /* ContentView.swift */,
 				DBEEB47025CCC3A700A1B2E5 /* Assets.xcassets */,
+				DB00ACF125E7F9BE00ADAD99 /* CircleButtonStyle.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,8 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEEB49925CCC3A800A1B2E5 /* ContentView.swift in Sources */,
+				DBEEB49925CCC3A800A1B2E5 /* ReminderRow.swift in Sources */,
+				DB00AD0325E7FA8400ADAD99 /* HomeViewModel.swift in Sources */,
+				DB00ACF225E7F9BE00ADAD99 /* CircleButtonStyle.swift in Sources */,
 				DBEEB49725CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */,
+				DB00ACF925E7FA3200ADAD99 /* HomeView.swift in Sources */,
+				DB00ACE825E7F99800ADAD99 /* AddOrEditReminderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,7 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBEEB49A25CCC3A800A1B2E5 /* ContentView.swift in Sources */,
 				DBEEB49825CCC3A800A1B2E5 /* SkillFactory_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,7 +509,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q4NG482RNM;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -479,7 +517,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.skillfactory.SkillFactory-App";
 				PRODUCT_NAME = "SkillFactory App";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -493,7 +531,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q4NG482RNM;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -501,7 +539,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.skillfactory.SkillFactory-App";
 				PRODUCT_NAME = "SkillFactory App";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -518,7 +556,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Q4NG482RNM;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -527,7 +565,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.skillfactory.SkillFactory-App";
 				PRODUCT_NAME = "SkillFactory App";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
@@ -542,7 +580,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = Q4NG482RNM;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
@@ -551,7 +589,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.litecode.SkillFactory-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.skillfactory.SkillFactory-App";
 				PRODUCT_NAME = "SkillFactory App";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
